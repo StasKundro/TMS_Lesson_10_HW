@@ -6,6 +6,7 @@ import java.nio.file.StandardOpenOption;
 import java.util.*;
 
 /**
+ * файл TMS в репозитории для проверки
  * C:\TMS\file1.txt
  * C:\TMS\file2.txt
  * C:\TMS\file3.txt
