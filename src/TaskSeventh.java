@@ -2,10 +2,10 @@ public class TaskSeventh {
     private int[] arr;
     private int size;
     private int index;
-    private final int sizeArray = 10;
+    private final int sizeArr = 10;
 
     public TaskSeventh() {
-        arr = new int[sizeArray];
+        arr = new int[sizeArr];
     }
 
     private void grow() {
