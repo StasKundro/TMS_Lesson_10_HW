@@ -24,7 +24,7 @@ public class NewList<listArr> {
     }
 
     private void grow() {
-        sizeArr = sizeArr * 3 / 2 + 1;
+        sizeArr = sizeArr + 10;
         arr = Arrays.copyOf(arr, sizeArr);
     }
 
