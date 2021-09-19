@@ -40,6 +40,13 @@ public class NewList<listArr> {
         System.arraycopy(arr, index + 1, arr, index, size - index - 1);
         arr[--size] = null;
     }
+    
+     public void clear() {
+        for (int i = 0; i < size; i++) {
+            arr[i] = null;
+        }
+        size = 0;
+    }
 
     public int getSize() {
         return size;
@@ -48,12 +55,4 @@ public class NewList<listArr> {
     public int getSizeArr() {
         return sizeArr;
     }
-
-    public void clear() {
-        for (int i = 0; i < size; i++) {
-            arr[i] = null;
-        }
-        size = 0;
-    }
-
 }
