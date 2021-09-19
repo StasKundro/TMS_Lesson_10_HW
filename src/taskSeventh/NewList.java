@@ -28,13 +28,6 @@ public class NewList<listArr> {
         arr = Arrays.copyOf(arr, sizeArr);
     }
 
-    public void add(int value) {
-        if (size >= sizeArr) {
-            grow();
-        }
-        arr[size++] = arr;
-    }
-
     public void remove(int index) {
         if (index >= size) return;
         System.arraycopy(arr, index + 1, arr, index, size - index - 1);
